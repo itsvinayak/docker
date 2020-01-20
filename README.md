@@ -1,6 +1,6 @@
-<center>
+<p align="center">
 <img src="img/docker.png" style="width:50%;"/>
-</center>
+</p>
 
 <br/>
 <br/>
@@ -18,9 +18,9 @@
 in simple word <mark>Docker</mark> solve the classic case of "it works on my machine"
 <br/>
 
-<center>
+<p align="center">
 <img src="img/images.jpg" style="width:50%;"/>
-</center>
+</p>
 <br/>
 by providing <a href="https://en.wikipedia.org/wiki/OS-level_virtualization" target="_blank"> OS-level virtualization </a>
 
@@ -37,9 +37,9 @@ The two core concepts to be explored here are:
 <li>How they offer an alternative to virtual machines</li>
 </ol>
 <br/>
-<center>
+
 <img src="img/gfgimage.png" style="width:100%;"/>
-</center>
+
 <br/>
 <br/>
 
@@ -105,8 +105,10 @@ Docker can be installed in two versions of Docker CE(Community Edition) and Dock
 
 <b>Step 1:</b> Update Software Repositories using the following command on terminal
 <pre>$ sudo apt update</pre>
+
 <b>Step 2:</b> Install Docker using the following command
 <pre>$ sudo apt install docker.io</pre>
+
 <b>Step 3:</b> Setup Docker run at Startup. Docker service needs to be set up to run at startup.
 <pre>$ sudo systemctl start docker</pre>
 <pre>$ sudo systemctl enable docker</pre>
